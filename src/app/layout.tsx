@@ -3,6 +3,7 @@ import { Inter, Mulish, Frank_Ruhl_Libre } from 'next/font/google';
 
 import "./globals.css";
 import Header from "@/components/Header/Header";
+import Footer from "@/components/Footer/Footer";
 
 // Usando a fonte Mulish
 const mulish = Mulish({
@@ -36,6 +37,9 @@ export default function RootLayout({
       >
         <Header/>
         {children}
+        <div>
+        <Footer/>
+      </div>
       </body>
     </html>
   );

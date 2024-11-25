@@ -8,32 +8,32 @@ import Principal from "@/components/Principal/Principal";
 export default function Home() {
   return (
     <div>
-      <Principal/>
+      <Principal />
       <div className="border-b-2 border-sky-500 pt-20"></div>
-      <div className="max-w-[1220] ml-32 mr-32 mt-10">
-        <div className="flex place-items-baseline justify-between m-auto">
-        <h2 className="font-extrabold text-2xl text-gray-800">Publicações Recentes</h2>
-        <Button/>
+      <div className="max-w-[1420] mt-10 mx-auto">
+
+        <div className="flex justify-between max-w-7xl">
+          <h2 className="font-extrabold text-2xl text-gray-800">
+            Publicações Recentes
+          </h2>
+          <Button />
         </div>
-        <div className="grid grid-cols-4 gap-4">
-          <CardPubliRecente/>
-          <CardPubliRecente/>
-          <CardPubliRecente/>
-          <CardPubliRecente/>
-          <CardPubliRecente/>
-          <CardPubliRecente/>
-          <CardPubliRecente/>
-          <CardPubliRecente/>
+
+        <div className="grid grid-cols-4 gap-4 max-w-7xl">
+          <CardPubliRecente />
+          <CardPubliRecente />
+          <CardPubliRecente />
+          <CardPubliRecente />
+          <CardPubliRecente />
+          <CardPubliRecente />
+          <CardPubliRecente />
+          <CardPubliRecente />
         </div>
+
       </div>
       <div>
-        <NewsLetter/>
-      </div>
-      <div>
-        <Footer/>
+        <NewsLetter />
       </div>
     </div>
-      
-    
   );
 }

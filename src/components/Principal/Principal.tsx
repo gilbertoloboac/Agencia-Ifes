@@ -4,7 +4,7 @@ import Avatar from "../Avatar/Avatar";
 
 export default function Principal() {
     return(
-        <main className="max-[1220]:w-[1420] m-auto flex justify-center columns-2">
+        <main className="max-w-[1420px] m-auto flex justify-center columns-2">
             <div className="w-1/2 mt-7">
                  <Image
                 src="/img/cdc-LiNIONbajm4-unsplash.jpg"

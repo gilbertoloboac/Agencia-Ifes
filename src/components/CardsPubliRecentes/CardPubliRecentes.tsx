@@ -3,9 +3,9 @@ import Avatar from "../Avatar/Avatar";
 
 export default function CardPubliRecente() {
     return(
-        <div className="mt-8">
+        <div className="w-full mt-8">
             <p className="font-bold text-sky-600">#Nanotecnologia</p>
-            <Image
+            <Image className="w-full"
             src="/img/thisisengineering-EUXD3xC6T30-unsplash.jpg"
             width={296}
             height={312}

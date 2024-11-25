@@ -11,25 +11,26 @@ export default function Header() {
                 <MenuFlutuante/>
             </nav>
             <div className="flex justify-between items-center pt-3 pb-3 border-t-2 border-sky-300 shadow-lg bg-slate-100">
-                <div className="text-xs  ml-32">
-                   <span className="font-bold text-sky-800 ">Sábado</span>, 23 de novembro de 2024
+                <div className="fw-[1420] flex grid-cols-3 justify-between items-center m-auto gap-44">
+                    <div className="text-xs  ml-32">
+                    <span className="font-bold text-sky-800 ">Sábado</span>, 23 de novembro de 2024
+                    </div>
+                    <div>
+                        <Link href="/">
+                            <Image
+                            src="/logo-agencia-ifes.svg"
+                            width={268}
+                            height={48}
+                            alt="Agência Ifes"
+                            />
+                        </Link>
+                    </div>    
+                    <nav className="flex gap-5 text-xs mr-48">
+                        <Link href="/" className="hover:font-bold">Home</Link>
+                        <Link href="https://www.google.br/"  className="hover:font-bold" >Banco de Fontes</Link>
+                        <Link className="hover:font-bold" href="https://agenciabrasil.ebc.com.br/fotos">Galeria de Imagens</Link>   
+                    </nav>  
                 </div>
-                <div>
-                    <Link href="/">
-                        <Image
-                        src="/logo-agencia-ifes.svg"
-                        width={268}
-                        height={48}
-                        alt="Agência Ifes"
-                        />
-                    </Link>
-                </div>    
-                <nav className="flex gap-5 text-xs mr-48">
-                    <Link href="/" className="hover:font-bold">Home</Link>
-                    <Link href="https://www.google.br/"  className="hover:font-bold" >Banco de Fontes</Link>
-                    <Link className="hover:font-bold" href="https://agenciabrasil.ebc.com.br/fotos">Galeria de Imagens</Link>
-                    
-                </nav>  
             </div>
         </header>
     )
