@@ -12,6 +12,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        'frank-ruhl-libre': ["Frank Ruhl Libre", "serif"]
+      },
     },
   },
   plugins: [],
